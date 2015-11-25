@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/webpack/react-webpack-server-side-example.git"
+    "url": "http://github.com/JQNinja/react-webpack-server-side-example.git"
   },
   "author": "Tobias Koppers @sokra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webpack/react-webpack-server-side-example/issues"
+    "url": "https://github.com/JQNinja/react-webpack-server-side-example/issues"
   },
   "homepage": "https://github.com/webpack/react-webpack-server-side-example",
   "dependencies": {

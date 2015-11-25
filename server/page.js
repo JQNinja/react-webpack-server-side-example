@@ -1,18 +1,21 @@
 var React = require("react");
 var ReactDOMServer = require("react-dom/server")
-var Application = require("../app/Application.jsx");
-//var styleCollector = require("./style-collector");
+var EmailHeading = require("../app/email_heading.jsx");
+
 
 module.exports = function(req) {
 
 	return ReactDOMServer.renderToStaticMarkup(
 		<html>
 			<head>
-				<title>Help me!</title>
+				<title>Boo ya!</title>
 			</head>
 			<body>
-				<Application url={req.url}/>
+				<EmailHeading text="Boo ya!"/>
 			</body>
 		</html>
 	);
 }
+
+
+

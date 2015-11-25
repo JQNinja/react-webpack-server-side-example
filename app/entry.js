@@ -1,7 +1,5 @@
-/** @jsx React.DOM */
-
 var React = require("react");
-var Application = require("./Application");
+var Application = require("./Application.jsx");
 
 React.renderComponent(
 	<Application url={location.pathname + (location.search || "")} />,

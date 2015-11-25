@@ -1,7 +1,7 @@
 var path = require("path");
 
 var commonLoaders = [
-	{ test: /\.js$/, loader: "jsx-loader" },
+	{ test: /\.jsx?$/, loader: "babel-loader", query: { presets: ['react', 'es2015'] } },
 	{ test: /\.png$/, loader: "url-loader" },
 	{ test: /\.jpg$/, loader: "file-loader" },
 ];
@@ -35,7 +35,7 @@ module.exports = [
 		// The configuration for the server-side rendering
 		name: "server-side rendering",
 		entry: "./server/page.js",
-		target: "node",
+		//target: "node",
 		output: {
 			path: assetsPath,
 			filename: "../../server/page.generated.js",

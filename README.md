@@ -10,7 +10,7 @@ webpack compile with two separate configurations: One for the browser bundle and
 
 ## Features
 
-* Same react code (`app/Application.js`) run on server and on client
+* Same react code (`app/Application.jsx`) run on server and on client
 * In both cases the code is compiled with webpack
   * Supports loaders i. e. file-loader for assets
 * The server-side compilation collects styles and include them in the pre-rendered HTML
